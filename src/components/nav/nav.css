@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo{
+    justify-self: flex-start;
+}
+.logo img {
+    width : 20%;
+    height : auto;
+}
+
+.links{
+    margin-top: 15px;
+    align-items: center;
+}
+a{
+    padding-right: 15px;
+}
