@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+    color : black;
+    cursor : none;
+}
+a:hover{
+    cursor: none;
+}
+@font-face {
+    font-family: 'Gemunu Libre';
+    src: url('GemunuLibre-ExtraLight.woff2') format('woff2'),
+        url('GemunuLibre-ExtraLight.woff') format('woff'),
+        url('GemunuLibre-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    font-family: 'Gemunu Libre';
+    /* cursor: none; */
+}
